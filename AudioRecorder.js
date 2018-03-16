@@ -11,9 +11,6 @@ var recorder = new AudioRecorder();
 var startButton = document.getElementById('btn-start-recording');
 var stopButton = document.getElementById('btn-stop-recording');
 
-startButton.onclick = recorder.start;
-stopButton.onclick = recorder.stop;
-
 function AudioRecorder(config) {
 
     config = config || {};
